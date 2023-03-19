@@ -1,5 +1,2 @@
-class ItalianFood < ActiveRecord::Base
-  belongs_to :order_foods
-  belongs_to:foods
-  belongs_to :shop
+class ItalianFood < Food
 end
